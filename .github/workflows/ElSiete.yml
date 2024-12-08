@@ -41,6 +41,7 @@ jobs:
       - name: Main
         run: |
           pwd
+          cd ./bash
           chmod +x ElSiete.sh
           ./ElSiete.sh
 
