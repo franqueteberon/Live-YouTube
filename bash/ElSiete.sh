@@ -6,6 +6,6 @@ python3 -m pip install requests
 
 cd $(dirname $0)/scripts/
 
-python3 ElSiete.py > ../manifest/ElSiete.m3u
+python3 ElSiete.py > ../ElSiete.m3u8
 
 echo m3u grabbed
